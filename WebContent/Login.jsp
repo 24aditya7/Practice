@@ -7,10 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="LoginServlet">
+<form action="LoginServlet" method="post">
 username: <input type ="text" name="uname"><br>
 password:  <input type ="password" name="pass"><br>
 <input type="submit" value="login">
-<input > 
+</form>
 </body>
 </html>

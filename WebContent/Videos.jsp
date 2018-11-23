@@ -7,11 +7,17 @@
 <title>Insert title here</title>
 </head>
 <body>
-                    <%  if(session.getAttribute("username")==null)
+                    <% 
+                    
+                   
+                    response.setHeader("Expires","0");
+                    if(session.getAttribute("username")==null)
                       {
                     	  response.sendRedirect("Login.jsp");
                       }
-                              https://www.youtube.com
+                             
                               %> 
+                             <blockquote class="embedly-card"><h4><a href="http://www.youtube.com">YouTube</a></h4><p>Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 </body>
 </html>
